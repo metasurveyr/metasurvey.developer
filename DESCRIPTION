@@ -1,0 +1,48 @@
+Package: metasurvey.developer
+Title: Developer Kit for Extending the 'metasurvey' Ecosystem
+Version: 0.1.0
+URL: https://metasurveyr.github.io/metasurvey.developer/,
+    https://github.com/metasurveyr/metasurvey.developer
+BugReports: https://github.com/metasurveyr/metasurvey.developer/issues
+Authors@R:
+    c(
+        person(
+            given = "Mauro",
+            family = "Loprete",
+            role = c("aut", "cre"),
+            email = "mauro.loprete@icloud.com",
+            comment = c(ORCID = "0000-0003-1560-0183")
+        ),
+        person(
+            given = "Natalia",
+            family = "da Silva",
+            role = "aut",
+            email = "natalia.dasilva@fcea.edu.uy",
+            comment = c(ORCID = "0000-0002-6031-7451")
+        ),
+        person(
+            given = "Fabricio",
+            family = "Machado",
+            role = "aut",
+            email = "fabricio.mch.slv@gmail.com",
+            comment = c(ORCID = "0009-0008-2653-9166")
+        )
+    )
+Description: Tooling to develop and extend the 'metasurvey' ecosystem: scaffolding
+    generators for recipes and custom backends, and a bundled kit of Claude Code
+    development agents and slash commands (rOpenSci reviewer, CRAN reviewer, doc
+    auditor, smart-commit, and more) that can be installed into a project's
+    '.claude' directory.
+License: GPL (>= 3)
+Depends:
+    R (>= 4.1)
+Suggests:
+    metasurvey.core,
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+Config/testthat/edition: 3
+Encoding: UTF-8
+Language: en-US
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 8.0.0
